@@ -1,0 +1,61 @@
+{
+	"$schema": "vscode://schemas/color-theme",
+	"name": "JetBrains New Dark",
+	"include": "./dark_modern.json",
+	// custom syntax highlighting
+	"tokenColors": [
+	  {
+		"scope": [
+		  "variable.argument.css",
+		  "punctuation.definition.tag",
+		  "entity.name.tag",
+		  "support.function.misc",
+		  "meta.function.variable.css",
+		  "meta.property-value.css support.function",
+		  "meta.selector.css",
+		  "entity.other.attribute-name.css"
+		],
+		"settings": {
+		  "foreground": "#D5B778"
+		}
+	  },
+	  {
+		"scope": [
+		  "keyword.other.unit",
+		  "punctuation.separator.key-value.html",
+		  "meta.tag.attributes keyword.operator.assignment"
+		],
+		"settings": {
+		  "foreground": "#6AAB73"
+		}
+	  },
+	  {
+		"scope": [
+		  "entity.other.attribute-name",
+		  "support.type.property-name.css"
+		],
+		"settings": {
+		  "foreground": "#BABABA"
+		}
+	  },
+	  {
+		"scope": ["support.type.property-name.json"],
+		"settings": {
+		  "foreground": "#C77DBB"
+		}
+	  },
+	  {
+		"scope": ["meta.tag.custom entity.name.tag.html"],
+		"settings": {
+		  "foreground": "#2fbaa3"
+		}
+	  },
+	  {
+		"scope": ["comment.block.documentation", "comment.block.javadoc"],
+		"settings": {
+		  "foreground": "#5F826B"
+		}
+	  }
+	]
+  }
+  
